@@ -28,4 +28,6 @@ const Calculator ={
 function actionApplyer(startInt,arr){
   if (arr.length==0)
   return startInt
+  else
+  
 }
