@@ -1,9 +1,13 @@
 // Your code here
 let Calculator = {
-  add:function(x,y){return x+y;},
-  subtract: function(x,y){return x-y;},
-  multiply: function(x,y){return x*y;},
-  divide: function(x,y){return x/y;}
+  add:function(x,y)
+  {return x+y;},
+  subtract: function(x,y)
+  {return x-y;},
+  multiply: function(x,y)
+  {return x*y;},
+  divide: function(x,y)
+  {return x/y;}
 }
 function saturdayFun(fun='roller-skate')
 {
