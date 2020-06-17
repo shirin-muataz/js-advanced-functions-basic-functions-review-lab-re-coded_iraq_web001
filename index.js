@@ -19,12 +19,7 @@ function  wrapAdjective(flair='*')
 let encouragingPromptFunction=wrapAdjective("!!!");
 encouragingPromptFunction("%")("a dedicated programmer");
 
-const Calculator ={
-  add:function(x,y){x+y;},
-  subtract: function(x,y){x-y;},
-  multiply: function(x,y){x*y;},
-  divide: function(x,y){x/y;}
-}
+
 function actionApplyer(startInt,arr){
   if (arr.length ===0)
   return startInt
@@ -35,4 +30,11 @@ function actionApplyer(startInt,arr){
   startInt=arr[2](startInt);
   return startInt
   }
+}
+
+const Calculator ={
+  add:function(x,y){x+y;},
+  subtract: function(x,y){x-y;},
+  multiply: function(x,y){x*y;},
+  divide: function(x,y){x/y;}
 }
