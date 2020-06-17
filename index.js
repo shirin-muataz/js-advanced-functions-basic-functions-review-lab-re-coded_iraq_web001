@@ -25,3 +25,6 @@ const Calculator ={
   multiply: function(x,y){x*y;},
   divide: function(x,y){x/y;}
 }
+function actionApplyer(){
+  
+}
