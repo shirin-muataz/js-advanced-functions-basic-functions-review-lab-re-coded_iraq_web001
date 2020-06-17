@@ -20,7 +20,7 @@ let encouragingPromptFunction=wrapAdjective("!!!");
 encouragingPromptFunction("%")("a dedicated programmer");
 
 const Calculator ={
-  add:function (x,y){x+y;},
+  add:function(x,y){x+y;},
   subtract: function(x,y){x-y;},
   multiply: function(x,y){x*y;},
   divide: function(x,y){x/y;}
