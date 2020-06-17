@@ -29,5 +29,10 @@ function actionApplyer(startInt,arr){
   if (arr.length ===0)
   return startInt
   else
-  
+  {
+    startInt=arr[0](startInt);
+  startInt=arr[1](startInt);
+  startInt=arr[2](startInt);
+  return startInt
+  }
 }
