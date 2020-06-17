@@ -32,7 +32,7 @@ function actionApplyer(startInt,arr){
   }
 }
 
-const Calculator ={
+let Calculator ={
   add:function(x,y){x+y;},
   subtract: function(x,y){x-y;},
   multiply: function(x,y){x*y;},
