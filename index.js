@@ -26,5 +26,6 @@ const Calculator ={
   divide: function(x,y){x/y;}
 }
 function actionApplyer(startInt,arr){
-  
+  if (arr.length==0)
+  return startInt
 }
